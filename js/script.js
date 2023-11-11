@@ -42,7 +42,7 @@ function mostrarResultado() {
 
     function comparar() {
 
-        if ((jugador == 'piedra' && rondaPC == 'tijera') || (jugador === 'papel' && rondaPC === 'piedra') || (jugador === 'tijera' && rondaPC === 'papel')) {
+        if ((jugador === 'piedra' && rondaPC === 'tijera') || (jugador === 'papel' && rondaPC === 'piedra') || (jugador === 'tijera' && rondaPC === 'papel')) {
             ronda.textContent = 'Has ganado';
             puntosUsuario++;
             marcador();
