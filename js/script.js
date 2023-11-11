@@ -30,6 +30,7 @@ botones.forEach((element) => {
 })
 
 
+
 function mostrarResultado() {
     const jugador = this.dataset.jugada;
     const PC = Math.floor(Math.random() * 3);
