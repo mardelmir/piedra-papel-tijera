@@ -36,9 +36,9 @@ En este ejercicio, crearemos un juego de "Piedra, Papel o Tijera" utilizando HTM
 - Capturar resultados
 - Capturar contador-usuario <!-- Check -->
 - Capturar contador-ordenador <!-- Check -->
-- Crear una función obtenerResultado
-- Crear una función mostrarResultado
-- Crear una función actualizarPuntuacion
+- Crear una función obtenerResultado <!-- Check -->
+- Crear una función mostrarResultado <!-- Check -->
+- Crear una función actualizarPuntuacion <!-- Check -->
 
 Piensa antes de hacer. Divide los problemas y luego programa
 
