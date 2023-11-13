@@ -21,14 +21,13 @@ let puntosPC = 0;
 
 
 // Selección de TODOS los botones
-const botones = document.querySelectorAll('.boton-jugada');
 
+const botones = document.querySelectorAll('.boton-jugada');
 
 
 botones.forEach((element) => {
     element.addEventListener('click', mostrarResultado)
 })
-
 
 
 function mostrarResultado() {
